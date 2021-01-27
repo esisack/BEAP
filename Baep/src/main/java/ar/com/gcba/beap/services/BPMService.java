@@ -24,7 +24,7 @@ public class BPMService {
 	@Value( "${jbpm.process}" )
 	private String process;
 	
-	private String SERVER_URL = "http://localhost:8080/kie-server/services/rest/server";
+	private String SERVER_URL = "http://10.9.10.3:8080/kie-server/services/rest/server";
 //	private String CONTAINER_ID = "oficios-bpm_1.0.0-SNAPSHOT";
 
 	private UserTaskServicesClient taskService;
